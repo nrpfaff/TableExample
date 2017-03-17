@@ -55,7 +55,7 @@ public class View extends ViewPart {
 		fd_inputTextBox.top = new FormAttachment(0, 106);
 		fd_inputTextBox.left = new FormAttachment(0, 10);
 		inputTextBox.setLayoutData(fd_inputTextBox);
-		
+		//
 		Button addButton = new Button(c2, SWT.NONE);
 		addButton.addMouseListener(new MouseAdapter() {
 			@Override
